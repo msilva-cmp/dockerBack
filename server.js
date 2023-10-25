@@ -19,7 +19,7 @@ app.get('/', (req,res)=>{
     res.send('La marrana llegó a la pocilga.')
 });
 
-app.listen(PORT, ()=>{
+app.listen(PORT, '0.0.0.0', ()=>{
     console.log(`Server en ejecución en el puerto ${PORT}`);
 });
 
